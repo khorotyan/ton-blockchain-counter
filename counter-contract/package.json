@@ -1,0 +1,33 @@
+{
+  "name": "first_ton_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
+    "@swc/core": "^1.4.8",
+    "@ton-community/blueprint": "^0.12.0",
+    "@ton-community/func-js": "^0.6.3",
+    "@ton-community/sandbox": "^0.11.0",
+    "@ton-community/test-utils": "^0.3.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.30",
+    "@types/qrcode-terminal": "^0.12.2",
+    "@types/qs": "^6.9.14",
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "qrcode-terminal": "^0.12.0",
+    "qs": "^6.12.0",
+    "ton": "^13.9.0",
+    "ton-core": "^0.53.0",
+    "ton-crypto": "^3.2.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
