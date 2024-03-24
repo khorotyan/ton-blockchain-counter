@@ -1,0 +1,27 @@
+{
+  "name": "ton-simple-test-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.4.8",
+    "@types/node": "^20.11.30",
+    "@types/qs": "^6.9.14",
+    "qs": "^6.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3",
+    "ton": "^13.9.0",
+    "ton-client-js": "^0.28.1",
+    "ton-client-node-js": "^0.28.0",
+    "ton-core": "^0.53.0",
+    "ton-crypto": "^3.2.0"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  }
+}
